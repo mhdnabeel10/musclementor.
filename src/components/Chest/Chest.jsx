@@ -13,7 +13,7 @@ const Chest = () => {
         <div className='workouts'>
           {
             chest_workouts.map((obj)=>{
-              return <><h1>{obj.name}</h1><img className='abs-img' src={obj.image} /><h3>{obj.reps}</h3></>
+              return <><h1>{obj.name}</h1><img className='abs-img' src={obj.image} alt='img' /><h3>{obj.reps}</h3></>
             })
             }
         </div>
