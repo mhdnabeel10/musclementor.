@@ -1,0 +1,28 @@
+.heading{
+    color: white;
+    background-color: #344e5c;
+    text-align: center;
+}
+.categaries{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 70px;
+    
+}
+.items{
+    color: #344e5c;
+    background-color:white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 53px;
+}
+.items:hover{
+    background-color: #344e5c;
+    color:white ;
+    border-color: #344e5c;
+    border-style:groove;
+    cursor: pointer;
+    transition: ease-in-out 100ms;
+    
+}

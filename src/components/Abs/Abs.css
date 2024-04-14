@@ -1,0 +1,19 @@
+.heading{
+     color: white;
+     bottom: 0%;
+    
+}
+.workouts{
+    background-color: #344e5c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin:0%;
+    padding-top: 20px;
+}
+.abs-img{
+
+    width: 200px;
+    height: 200px;
+}

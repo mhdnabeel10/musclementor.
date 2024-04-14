@@ -1,0 +1,52 @@
+.nav-bar,.nav-links{
+    display: flex;
+}
+.nav-bar{
+    background-color: #344e5c;
+    top: 0;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.nav-links{
+    gap: 1.5rem;
+    list-style:none ;
+    font-size: 1.2rem;
+    color:#ecf3f2;
+    padding-right: 35px;
+}
+
+.logo{
+    font-size: 2rem;
+    color: aliceblue;
+}
+.logo:hover{
+    cursor: default;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 20px; 
+    text-decoration: none; 
+    color: #ffffff; 
+    font-size: 12px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    list-style: none; 
+    margin: 5px; 
+}
+
+.rounded-button:hover {
+    background-color: #333; 
+    color: #fff; 
+}

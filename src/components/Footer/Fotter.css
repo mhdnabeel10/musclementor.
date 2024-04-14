@@ -1,0 +1,63 @@
+.footer{
+    width: 100%;
+    height: 17rem;
+    background-color: black;
+    
+    bottom: 0;
+}
+
+.h2{
+        color: white;
+}
+
+.signin-btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.5rem;
+    width: 6rem;
+    border-radius: 2rem;
+    background-color: aliceblue;
+    color: black;
+    border-style: none;
+}
+.signin-btn:hover{
+    color: aliceblue;
+    background-color:black ;
+    cursor: pointer;
+}
+.f-2{
+    
+    display: inline-block;
+    padding-left: 400px;
+}
+.pf{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.h1f{
+    color: white;
+    text-align: center;
+    padding-left: 250px;
+    
+}
+a{
+    color: white;
+    text-align: center;
+    padding-left: 240px;
+}
+.f-pic{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    border-radius: 80px;
+}
+.nav-link{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    font-size: 1.2rem;
+    color: #ecf3f2;
+    padding-left: 587px;
+    padding-top: 25px;
+}

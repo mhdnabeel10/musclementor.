@@ -1,0 +1,44 @@
+.homepage{
+    background-color: #344e5c;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+/*h1 and buttons*/
+h1,h2{
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+
+.join-btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 0.5rem;
+    width: 6rem;
+    border-radius: 2rem;
+    background-color: black;
+    color: aliceblue;
+    border-style: none;
+}
+.join-btn:hover{
+    color: black;
+    background-color:aliceblue ;
+    cursor: pointer;
+}
+/* banner*/
+.banner{
+    padding: 300px;
+}
+.homepg-pic{
+    width: 150px;
+    height: 150px;
+    margin-right: 50px;
+    border-radius: 80px;
+}
+.description{
+    margin-right: -150px;
+    display: inline-block;
+}
+span{
+    color: black;
+}
