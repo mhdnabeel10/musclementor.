@@ -12,3 +12,22 @@ body{
 html{
     scroll-behavior:smooth ;
 }
+
+@media(max-width: 480px){
+    .App{
+        width: 915px;
+    }
+    .nav-link{
+        display:inline-block ;
+        padding-left: 310px;
+        
+    }
+    .f-2{
+        display: inline-block;
+        padding-left: 115px;
+        
+    }
+  
+ 
+
+}
