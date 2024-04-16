@@ -18,15 +18,20 @@ html{
         width: 915px;
     }
     .nav-link{
-        display:inline-block ;
-        padding-left: 310px;
+        display:inline-block;
+        padding-left: 310px !important;
         
     }
     .f-2{
         display: inline-block;
-        padding-left: 115px;
+        padding-left: 115px !important;
         
     }
+    .main{
+        height: 1640px !important;
+    }
+
+   
   
  
 
