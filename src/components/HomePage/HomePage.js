@@ -19,7 +19,7 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <JoinUs/>
+        <JoinUs ishomepage={true}/>
         <Exercises />
         
     </div>

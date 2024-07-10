@@ -28,6 +28,7 @@ h1,h2{
 /* banner*/
 .banner{
     padding: 300px;
+    display: inline-block;
 }
 .homepg-pic{
     width: 150px;
@@ -36,9 +37,18 @@ h1,h2{
     border-radius: 80px;
 }
 .description{
-    margin-right: -150px;
+    text-align: center;
     display: inline-block;
 }
 span{
     color: black;
+}
+
+@media(max-width:375px){
+    .homepg-pic{
+        margin-right: 0px;
+    }
+    .banner{
+        padding: 200px;
+    }
 }

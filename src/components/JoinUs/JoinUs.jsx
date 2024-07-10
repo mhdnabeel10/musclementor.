@@ -1,7 +1,7 @@
 import React from 'react'
 import "./JoinUs.css"
 
-const JoinUs = () => {
+const JoinUs = ({ishomepage}) => {
   return (
     <div className='main'>
         <h1 className='h1'>About</h1>

@@ -1,7 +1,7 @@
-.nav-bar,.nav-links{
+nav,nav ul{
     display: flex;
 }
-.nav-bar{
+nav{
     background-color: #344e5c;
     top: 0;
     height: 30px;
@@ -12,7 +12,7 @@
 ::-webkit-scrollbar{
     display: none;
 }
-.nav-links{
+nav ul{
     gap: 1.5rem;
     list-style:none ;
     font-size: 1.2rem;
@@ -49,4 +49,89 @@ a{
 .rounded-button:hover {
     background-color: #333; 
     color: #fff; 
+}
+
+.menu-icon{
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: -25.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+
+}
+nav .menu-icon span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    transition: all 0.3s ease ;
+}
+.menu-icon.open span:nth-child(1){
+    transform: rotate(42deg) translateY(18px);
+    
+}
+.menu-icon.open span:nth-child(2){
+    opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3){
+    transform: rotate(-43deg) translateY(-17px);
+    
+}
+
+.menu-icon.close span:nth-child(1){
+    transform: rotate(0) translateY(0);
+    
+}
+.menu-icon.close span:nth-child(2){
+    opacity: 1;
+}
+
+.menu-icon.close span:nth-child(3){
+    transform: rotate(0) translateY(0);
+    
+}
+/* media queries*/
+@media(max-width:375px){
+    .logo{
+        font-size: 25px;
+    }
+    nav .ham-menu{
+        display: flex;
+        
+    }
+    .menu-icon{
+        display: flex;
+        margin-right: -105px;
+    }
+    
+    .rounded-button{
+        border: none;
+        color:white;
+        font-weight: 60;
+        
+    }
+    nav{
+        flex-direction: column;
+        align-items: start;
+    }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        margin-top: 8px;
+        margin-left: 175px;
+    }
+    nav ul.open{
+        display: flex;
+        background-color: black;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
 }

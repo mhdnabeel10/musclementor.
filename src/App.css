@@ -12,10 +12,12 @@ body{
 html{
     scroll-behavior:smooth ;
 }
-
+/* .App{
+    position: relative;
+} */
 @media(max-width: 480px){
     .App{
-        width: 915px;
+        width: 910px;
     }
     .nav-link{
         display:inline-block;
@@ -27,12 +29,7 @@ html{
         padding-left: 115px !important;
         
     }
-    .main{
+    /* .main{
         height: 1640px !important;
-    }
-
-   
-  
- 
-
-}
+    } */
+} 
