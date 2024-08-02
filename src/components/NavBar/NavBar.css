@@ -53,9 +53,6 @@ a{
 
 .menu-icon{
     display: none;
-    position: absolute;
-    top: 0.75rem;
-    right: -25.5rem;
     flex-direction: column;
     justify-content: space-between;
     width: 2.25rem;
@@ -105,30 +102,125 @@ nav .menu-icon span{
     }
     .menu-icon{
         display: flex;
-        margin-right: -105px;
+        
     }
     
     .rounded-button{
         border: none;
         color:white;
         font-weight: 60;
+        padding: 0;
+        margin: 0;
         
     }
-    nav{
-        flex-direction: column;
-        align-items: start;
-    }
+   
+     nav{
+        display: flex;
+        justify-content: space-between;
+     }
     nav ul{
         display: none;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 0.25rem;
         margin-top: 8px;
-        margin-left: 175px;
+        
     }
     nav ul.open{
         display: flex;
         background-color: black;
+        margin-bottom: -17vh;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width:425px){
+    .logo{
+        font-size: 25px;
+    }
+    nav .ham-menu{
+        display: flex;
+        
+    }
+    .menu-icon{
+        display: flex;
+        
+    }
+    
+    .rounded-button{
+        border: none;
+        color:white;
+        font-weight: 60;
+        padding: 0;
+        margin: 0;
+        
+    }
+   
+     nav{
+        display: flex;
+        justify-content: space-between;
+     }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 8px;
+        
+    }
+    nav ul.open{
+        display: flex;
+        background-color: black;
+        margin-bottom: -17vh;
+        border-radius: 5px;
+        z-index: 1;
+    }
+    nav ul li{
+        width: 100%;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .logo{
+        font-size: 25px;
+    }
+    nav .ham-menu{
+        display: flex;
+        
+    }
+    .menu-icon{
+        display: flex;
+        
+    }
+    
+    .rounded-button{
+        border: none;
+        color:white;
+        font-weight: 60;
+        padding: 0;
+        margin: 0;
+        
+    }
+   
+     nav{
+        display: flex;
+        justify-content: space-between;
+     }
+    nav ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 8px;
+        
+    }
+    nav ul.open{
+        display: flex;
+        background-color: black;
+        margin-bottom: -17vh;
+        border-radius: 5px;
+        z-index: 1;
     }
     nav ul li{
         width: 100%;

@@ -3,6 +3,7 @@ import './Exercises.css'
 import { useEffect,useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
+import { motion } from 'framer-motion';
 
 
 
@@ -23,6 +24,11 @@ import { useNavigate } from 'react-router-dom'
 }, []);
 
   return (
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.4 }}
+    >
     <div>
       <section id='exercise'>
         <h1 className='heading'>Exercise Categories</h1>
@@ -37,7 +43,7 @@ import { useNavigate } from 'react-router-dom'
         </div>
       </section>
     </div>
-     
+    </motion.div>
   )
 }
 

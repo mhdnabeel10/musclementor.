@@ -26,3 +26,27 @@
     transition: ease-in-out 100ms;
     
 }
+@media(max-width:375px){
+    .categaries{
+        padding: 10px;
+    }
+    .items{
+        padding: 20px;
+    }
+}
+@media(max-width:425px){
+    .categaries{
+        padding: 10px;
+    }
+    .items{
+        padding: 15px;
+    }
+}
+@media(max-width:768px){
+    .categaries{
+        padding: 10px;
+    }
+    .items{
+        padding: 15px;
+    }
+}
